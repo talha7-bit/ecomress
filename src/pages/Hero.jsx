@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='bg-gradient-to-b from-orange-100 to-white w-screen h-screen flex items-center justify-center gap-5'>
       <div className='flex flex-col items-center justify-center gap-3'>
-      <h3 className='text-xl font-semibold'>NEW ARRIVALS ONLY</h3>
+      <h3 className='mx-3 md:text-xl font-none md:font-semibold'>NEW ARRIVALS ONLY</h3>
       <div>
       <div className='flex '>
         <h1 className='text-2xl sm:text-3xl md:text-6xl md:text-6xl font-bold'>new</h1>

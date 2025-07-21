@@ -8,7 +8,7 @@ const Subscribe = () => {
         <p>Subscribe to our newlatter and stay updated</p>
         <div>
             <input type='email' placeholder='Enter Email' className='w-40 md:w-70 border border-white/110 rounded-xl px-2 md:px-4 py-1'/>
-            <button className='mt-2 md:mt-1 px-1 md:px-4 py-1 bg-black text-white rounded-lg mx-1 md:mx-2'>Subscribe</button>
+            <button className='mt-2 md:mt-1 px-1 md:px-4 py-1 bg-black text-white rounded-lg mx-1 md:mx-2 text-sm md:text-xl'>Subscribe</button>
         </div>
       </div>
     </div>
