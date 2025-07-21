@@ -42,8 +42,8 @@ const Navbar = ({toggleshow}) => {
   return (
     <div className='flex items-center justify-between mt-3'>
      <div className='flex items-center -justify-center gap-3 mx-5'>
-    <img src={logo} className='w-12 h-10'/>
-    <h1 className='text-2xl font-bold'>SHOPPERS</h1>
+    <img src={logo} className='w-8 md:w-12 h-6 md:10'/>
+    <h1 className='md:text-2xl font-bold'>SHOPPERS</h1>
       </div> 
       <div className='hidden md:flex'>
         <ul className='flex items-center justify-center gap-4 list-none'>
@@ -54,9 +54,9 @@ const Navbar = ({toggleshow}) => {
         </ul>
       </div>
       <div className='flex items-center justify-center gap-3 mr-5 list-none'>
-        <li className='border rounded px-4 py-1 cursor-pointer'><Link to='/login' onClick={()=>handle()}>{user? "Logout":"Login"}</Link></li>
-        <img src={cart} className='w-12 h-10 cursor-pointer' onClick={()=>handlecart()}/>
-        <Menu className='md:hidden cursor-pointer' onClick={toggleshow}/>
+        <li className='border rounded px-2 md:px-4 md:py-1 cursor-pointer'><Link to='/login' onClick={()=>handle()}>{user? "Logout":"Login"}</Link></li>
+        <img src={cart} className='w-8 md:w-12 h-7 md:h-10 cursor-pointer' onClick={()=>handlecart()}/>
+        <Menu className='w-8 h-7 md:hidden cursor-pointer' onClick={toggleshow}/>
       </div>
       
     </div>

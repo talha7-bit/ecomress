@@ -22,7 +22,7 @@ const Footer = () => {
   <a href="#"><FaInstagram className='text-pink-500 text-2xl' /></a>
   <a href="#"><FaWhatsapp className='text-green-500 text-2xl' /></a>
 </div>
-<p>----------------------------------------</p>
+<p className='hidden md:flex'>----------------------------------------</p>
 <p className='text-sm'>2025 @Copyright | All Rights Reserved</p>
     </div>
   )

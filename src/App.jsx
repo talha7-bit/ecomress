@@ -18,9 +18,7 @@ import { toast } from 'react-toastify'
 
 function App() {
   const [show, setshow] = useState(false);
-useEffect(()=>{
-  toast.success("toast test");
-},[])
+
   return (
  <div>
   <BrowserRouter>

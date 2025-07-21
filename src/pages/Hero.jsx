@@ -9,16 +9,16 @@ const Hero = () => {
       <h3 className='text-xl font-semibold'>NEW ARRIVALS ONLY</h3>
       <div>
       <div className='flex '>
-        <h1 className='text-3xl md:text-6xl md:text-6xl font-bold'>new</h1>
+        <h1 className='text-2xl sm:text-3xl md:text-6xl md:text-6xl font-bold'>new</h1>
         <img src={hand} className='w-5 h-5 mt-2 ml-2'/>
       </div>
-      <h1 className='text-3xl md:text-6xl font-bold'>collections</h1>
-      <h1 className='text-3xl md:text-6xl font-bold'>for everyone</h1>
-      <button className='mt-3 bg-orange-700 rounded-full px-4 py-1 text-white'>Latest Collection</button>
+      <h1 className='text-xl sm:text-3xl md:text-6xl font-bold'>collections</h1>
+      <h1 className='text-xl sm:text-3xl md:text-6xl font-bold'>for everyone</h1>
+      <button className='mt-3 bg-orange-700 rounded-full px-2 md:px-4 py-1 text-white'>Latest Collection</button>
       </div>
       </div>
       <div>
-      <img src={hero} className='h-50 md:h-100 w-[200px] md:w-[300px]'/>
+      <img src={hero} className='h-40 sm:h-50 md:h-100 w-[150px] sm:w-[200px] md:w-[300px]'/>
       </div>
       
     </div>

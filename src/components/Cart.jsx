@@ -47,7 +47,7 @@ const totalprice=items.reduce((acc,item)=>acc + Number(item.price),0)
         {items.length==0?(<p>No item found</p>):(
         
             items.map(item=>(
-                <div key={item.id} className='flex items-center justify-between gap-10 px-4 py-2 font-semibold w-110 md:w-200 border'>
+                <div key={item.id} className='flex items-center justify-between gap-5 sm:gap-10 px-2 sm:px-4 py-1 sm:py-2 font-none md:font-semibold w-85 md:w-200 border'>
                  <h1>{item.name}</h1>
                  <p>${item.price}</p>
                  <button className='bg-pink-200 rounded-lg px-4 py-1 cursor-pointer' onClick={()=>handleremove(item.id)}>Remove</button>

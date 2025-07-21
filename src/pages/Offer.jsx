@@ -14,7 +14,7 @@ const Offer = () => {
             <button onClick={()=>navigate('/women')} className='mt-3 bg-orange-600 rounded-full px-4 py-1 text-white cursor-pointer'>Check Now</button>
         </div>
         <div>
-            <img src={pic} className='w-90 h-50'/>
+            <img src={pic} className='w-[250px] md:w-[300px] h-40 md:h-50'/>
         </div>
       </div>
     </div>
